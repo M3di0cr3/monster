@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+} 
+
+.Background-image{
+    position: absolute;
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.promo{
+    display: none;
+}
+
+.div-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+main{
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-M{
+    display: none;
+}
+
+.monster-lata{
+    height: 90%;
+}
+
+nav{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    font-size: px;
+    font-size: 30px;
+    color: white;
+}
+
+.ENERGY{
+    font-size: 30px;
+    color: chartreuse;
+}
+
+.frase{
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.setas{
+    width: 90%;
+    font-size: 50px;
+    color: white;
+    text-decoration-thickness: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.By-SD{
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+@media (min-width: 1080px) {
+
+    body{
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    } 
+   
+    .Background-image{
+        height: 720px;
+        width: 650px;
+        position: absolute;
+        display: block;
+        left: 600px;
+        top: 50px;
+
+    }
+   
+    header{
+        width: 100%;
+        height: 10%;
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+    .promo{
+        color: white;
+        display: block;
+    }
+
+    main{
+        height: 80%;
+        width: 100%;
+
+        padding: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Logo-M{
+        display: block;
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        line-height: 50px;
+        width: 200px;
+        text-align: center;
+        }
+
+    .monster-lata{
+        height: 60%;
+        position: absolute;
+        left: 850px;
+        }
+
+
+    nav{
+        height: 100%;
+        width: 5%;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: self-start;
+        font-size: 80px;
+        color: white;
+    }
+
+    .ENERGY{
+        font-size: 80px;
+        color: chartreuse;
+    }
+
+    .frase{
+        font-size: 25px;
+        color: gray;
+    }   
+
+    footer{
+        width: 100%;
+        height: 10%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .setas{
+        font-size: 50px;
+        color: white;
+        text-decoration-thickness: 50px;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
